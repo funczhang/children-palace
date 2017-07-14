@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>少年宫网上报名</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/mui.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <style type="text/css">
+    .container {
+        position: relative;
+        height: 100%;
+        background: #f0f0f0;
+    }
+    
+    .btn-area {
+        margin: 0.5rem 0;
+        padding: 0 1rem;
+        height: 2.6rem;
+    }
+    
+    .about-class,
+    .apply-info {
+        padding: 0.5rem 1rem;
+        font: normal 0.8rem/1.5rem "微软雅黑";
+        font-weight: bold;
+        color: #000;
+    }
+    
+    button {
+        width: 48%;
+        height: 100%;
+        border: 2px solid #ff0055;
+        border-radius: 8px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 0.8rem;
+        font-family: "微软雅黑";
+        background: #fff;
+    }
+    
+    button:active {
+        background: #ff0055;
+    }
+    
+    input[type=search] {
+        font-size: 0.8rem;
+        height: 34px;
+        text-align: center;
+        border: 0;
+        margin-bottom: 15px;
+        -webkit-user-select: text;
+        border: 1px solid rgba(0, 0, 0, .2);
+        outline: 0;
+        -webkit-appearance: none;
+    }
+    
+    .search-panel {
+        position: relative;
+        background: #fff;
+    }
+    
+    .search-head {
+        padding: 0.5rem;
+    }
+    
+    .btn-record {
+        float: left;
+        color: #fff;
+        background: #ff0055;
+    }
+    
+    .btn-pro {
+        float: right;
+        color: #fff;
+        background: #ff0055;
+    }
+    
+    .coures-select {
+        float: left;
+        padding-right: 1rem;
+        width: 35%;
+        height: 100%;
+        font-size: 0.8rem;
+        background: url(imgs/down-arrow.png) no-repeat right;
+        background-size: 21px 11px;
+        text-align: left;
+    }
+    
+    .course-list {
+        position: absolute;
+        width: 100%;
+        z-index: 9;
+        padding: 0.2rem 0.75rem;
+        background: #fff;
+    }
+    
+    .course-list li {
+        font-family: "微软雅黑";
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+    }
+    
+    input[type=search] {
+        float: left;
+        padding: 0.2rem 0.5rem;
+        width: 62%;
+        height: 100%;
+        margin-bottom: 0;
+        border: none;
+        background: url(imgs/icon-search.png) no-repeat right;
+        background-size: 0.9rem 0.9rem;
+    }
+    
+    .mui-table-view-cell {
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="search-panel">
+            <div class="search-head fix">
+                <div class="coures-select">课程分类</div>
+                <input class="search" type="search" />
+            </div>
+            <!--<input type="search" id="" value="" />-->
+            <ul class="course-list hide">
+                <li class="red" disabled="disabled">全部课程类别</li>
+                <li>语言类课程</li>
+                <li>舞蹈类课程</li>
+                <li>乐器类课程</li>
+                <li>文字类课程</li>
+            </ul>
+        </div>
+        <div id="buffer">
+        <ul class="mui-table-view">
+            <li class="mui-table-view-cell mui-media">
+                <a href="javascript:;" class="mui-navigate-right">
+                    <img class="mui-media-object mui-pull-left" src="imgs/pic-class.png">
+                    <div class="mui-media-body">
+                        <span>拉丁舞（舞蹈类）</span>
+                        <p class='mui-ellipsis'>学年学期：2017年暑假</p>
+                        <p class='mui-ellipsis'>专业程度：启蒙/高级/中级</p>
+                        <p class='mui-ellipsis red'>￥750~￥900</p>
+                    </div>
+                </a>
+            </li>
+            <li class="mui-table-view-cell mui-media">
+                <a href="javascript:;" class="mui-navigate-right">
+                    <img class="mui-media-object mui-pull-left" src="imgs/pic-class.png">
+                    <div class="mui-media-body">
+                        拉丁舞（舞蹈类）
+                        <p class='mui-ellipsis'>学年学期：2017年暑假</p>
+                        <p class='mui-ellipsis'>专业程度：启蒙/高级/中级</p>
+                        <p class='mui-ellipsis red'>￥750~￥900</p>
+                    </div>
+                </a>
+            </li>
+            <li class="mui-table-view-cell mui-media">
+                <a href="javascript:;" class="mui-navigate-right">
+                    <img class="mui-media-object mui-pull-left" src="imgs/pic-class.png">
+                    <div class="mui-media-body">
+                        拉丁舞（舞蹈类）
+                        <p class='mui-ellipsis'>学年学期：2017年暑假</p>
+                        <p class='mui-ellipsis'>专业程度：启蒙/高级/中级</p>
+                        <p class='mui-ellipsis red'>￥750~￥900</p>
+                    </div>
+                </a>
+            </li>
+            <li class="mui-table-view-cell mui-media">
+                <a href="javascript:;" class="mui-navigate-right">
+                    <img class="mui-media-object mui-pull-left" src="imgs/pic-class.png">
+                    <div class="mui-media-body">
+                        拉丁舞（舞蹈类）
+                        <p class='mui-ellipsis'>学年学期：2017年暑假</p>
+                        <p class='mui-ellipsis'>专业程度：启蒙/高级/中级</p>
+                        <p class='mui-ellipsis red'>￥750~￥900</p>
+                    </div>
+                </a>
+            </li>
+            <li class="mui-table-view-cell mui-media">
+                <a href="javascript:;" class="mui-navigate-right">
+                    <img class="mui-media-object mui-pull-left" src="imgs/pic-class.png">
+                    <div class="mui-media-body">
+                        拉丁舞（舞蹈类）
+                        <p class='mui-ellipsis'>学年学期：2017年暑假</p>
+                        <p class='mui-ellipsis'>专业程度：启蒙/高级/中级</p>
+                        <p class='mui-ellipsis red'>￥750~￥900</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+        </div>
+        <div class="btn-area fix">
+            <button type="button" class="btn-record">我的报名记录</button>
+            <button type="button" class="btn-pro">维护学生信息</button>
+        </div>
+    </div>
+</body>
+<script src="js/scale.js"></script>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/mui.min.js"></script>
+<script>
+;
+(function() {
+    $(document).on('click', '.coures-select', function() {
+        $('.course-list').toggle('normal')
+    })
+    $(document).on('click', '.course-list li', function() {
+        var self = $(this);
+        $('.coures-select').text(self.text())
+        self.closest('ul').hide('normal');
+    })
+    mui.init({
+        pullRefresh: {
+            container: "#buffer", //待刷新区域标识，querySelector能定位的css选择器均可，比如：id、.class等
+            up: {
+                height: 50, //可选.默认50.触发上拉加载拖动距离
+                auto: false, //可选,默认false.自动上拉加载一次
+                contentrefresh: "正在加载...", //可选，正在加载状态时，上拉加载控件上显示的标题内容
+                contentnomore: '没有更多数据了', //可选，请求完毕若没有更多数据时显示的提醒内容；
+                callback: pullfresh //必选，刷新函数，根据具体业务来编写，比如通过ajax从服务器获取新数据；
+            }
+        }
+    });
+
+    function pullfresh() {
+    	var self = this;
+        console.log('111111111111111');
+         //业务逻辑代码，比如通过ajax从服务器获取新数据；
+     //注意：
+     //1、加载完新数据后，必须执行如下代码，true表示没有更多数据了：
+     //2、若为ajax请求，则需将如下代码放置在处理完ajax响应数据之后
+     setTimeout(function(){
+     	self.endPullupToRefresh(false);
+     },2000)
+     
+    }
+}());
+</script>
+
+</html>

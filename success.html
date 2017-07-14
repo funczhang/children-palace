@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>报名缴费</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/mui.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <style>
+    html,
+    body {
+        height: 100%;
+        background: #fff;
+    }
+    
+    .container {
+        padding: 0.1px;
+        height: 100%;
+    }
+    
+    .icon {
+        margin: 1rem auto 0.5rem auto;
+        width: 3.225rem;
+        height: 3.225rem;
+        background: url(imgs/icon-correct.png) no-repeat center;
+        background-size: 3.225rem 3.225rem;
+    }
+    
+    .msg {
+        padding: 0 1rem;
+        text-align: center;
+        font: bold 0.8rem/1.3rem "微软雅黑";
+        color: #999;
+    }
+    
+    .time-left {
+        text-align: center;
+    }
+    
+    .info-panel {
+        padding-top: 0.8rem;
+    }
+    
+    .info-panel ul {
+        padding: 0 0.8rem;
+    }
+    
+    .info-panel .title {
+        padding-left: 1.5rem;
+        width: 55%;
+        text-align: left;
+    }
+    
+    .info-panel label,
+    .info-panel span {
+        display: inline-block;
+    }
+    
+    .info-panel label {
+        width: 45%;
+        text-align: center;
+        font: bold 0.8rem/1.3rem "微软雅黑";
+    }
+    
+    .info-panel span {
+        width: 55%;
+        text-align: left;
+        font: normal 0.8rem/1.3rem "微软雅黑";
+    }
+    
+    .time-left {
+        float: left;
+        margin-right: 0.5rem;
+        font: bold 0.8rem/1rem "微软雅黑";
+    }
+    
+    .time-left span {
+        padding-left: 4rem;
+    }
+    
+    .time {
+        float: left;
+        width: 5rem;
+        height: 1rem;
+        background: #000;
+        color: #fff;
+        font: bold 0.8rem/1rem "微软雅黑";
+        text-align: center;
+    }
+    
+    .btn-area .mui-btn-success{
+        float: left;
+        width:40%;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="icon">
+        </div>
+        <p class="msg">报名成功</p>
+        <div class="info-panel">
+            <label class="title">报名信息如下：</label>
+            <ul>
+                <li>
+                    <label>报名机构</label><span>少年宫南校区</span></li>
+                <li>
+                    <label>预报班级</label><span>拉丁舞101启蒙</span></li>
+                <li>
+                    <label>课程费用</label><span>450元</span></li>
+                <li>
+                    <label>报名学生姓名</label><span>王小毛</span></li>
+                <li>
+                    <label>学生身份证号</label><span>34022119981219</span></li>
+                <li>
+                    <label>目前就读学校</label><span>镜湖小学</span></li>
+                <li>
+                    <label>目前就读年级</label><span>小学一年级</span></li>
+                <li>
+                    <label>家长姓名</label><span>王大毛</span></li>
+                <li>
+                    <label>家长手机号</label><span>13299998888</span></li>
+            </ul>
+        </div>
+        <div class="msg">
+            请您在2017-09-20日内完成网上缴费，若在规定的时间未缴费，系统将会取消您的本次报名名额并再次释放给其他用户选择，谢谢。
+        </div>
+        <p class="time-left fix">
+        	<span>剩余时间</span>
+            <div class="time">59：39：20</div>
+        </p>
+        <div class="btn-area fix">
+            <button type="button" class="mui-btn mui-btn-success">立即缴费</button>
+            <button type="button" class="mui-btn mui-btn-success">查看报名记录</button>
+        </div>
+    </div>
+</body>
+<script src="js/scale.js"></script>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/mui.min.js"></script>
+<!-- <script src="js/base.js"></script> -->
+
+</html>

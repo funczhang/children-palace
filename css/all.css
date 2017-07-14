@@ -1,0 +1,269 @@
+html,
+body {
+	/*height: 100%;*/
+	background: #fff;
+}
+
+p {
+	padding: 0;
+	margin: 0;
+}
+
+a:active {
+	color: #fff;
+}
+
+.mui-input-row label {
+	width: 40%;
+	font-family: "微软雅黑";
+	font-size: 0.8rem;
+}
+
+.mui-input-row label~input,
+.mui-input-row label~select,
+.mui-input-row label~textarea {
+	padding-right: 0.5rem;
+	width: 60%;
+	font-family: "微软雅黑";
+	font-size: 0.8rem;
+}
+
+.mui-btn-success {
+	padding: 8px 12px;
+	margin: 1rem 5%;
+	width: 90%;
+}
+
+.tip {
+	padding: 1rem;
+}
+
+.mui-table-view .mui-media-object {
+	line-height: 84px;
+	max-width: 84px;
+	height: 84px;
+}
+
+
+
+
+
+
+/*input[type="search"] {
+	display: block;
+	margin: 0.5rem auto;
+	width: 90%;
+	border-radius: 17px;
+}
+
+.mui-search .mui-placeholder {
+	top: 0.5rem;
+}
+
+.mui-placeholder span {
+	font-size: 0.8rem;
+	color: #aaa;
+}*/
+
+.red {
+	color: #ff0055;
+}
+
+
+/*班级信息页面*/
+
+.base-info {
+	padding: 0.5rem 1rem;
+	height: 6rem;
+	border-top: 1px solid #e7e8ea;
+	border-bottom: 1px solid #e7e8ea;
+	background: #fff;
+}
+
+.base-info img {
+	float: left;
+	width: 6.5rem;
+	height: 5rem;
+}
+
+.base-info .info-list {
+	padding-left: 0.5rem;
+	float: left;
+	width: 60%;
+}
+
+.info-list .title {
+	font-size: 1rem;
+	color: #000;
+}
+
+.info-list .mui-ellipsis {
+	font-size: 0.7rem;
+}
+
+.address-area {
+	padding: 0.5rem 1rem;
+	margin: 0.5rem auto;
+	height: 3.5rem;
+	border-top: 1px solid #e7e8ea;
+	border-bottom: 1px solid #e7e8ea;
+	background: #fff;
+}
+
+.address-area .address {
+	float: left;
+	width: 80%;
+}
+
+.address-area .call {
+	display: block;
+	float: left;
+	width: 20%;
+	height: 100%;
+	background: url(../imgs/icon-phone.png) no-repeat center;
+	background-size: 1.5rem 1.5rem;
+}
+
+.address .title {
+	font-size: 0.8rem;
+	font-weight: bold;
+	color: #000;
+}
+
+.address .location {
+	padding-left: 1rem;
+	font-size: 0.6rem;
+	color: #000;
+	background: url(../imgs/icon-location.png) no-repeat left;
+	background-size: 0.7rem 0.9rem;
+}
+
+.course-info {
+	border-top: 1px solid #e7e8ea;
+	background: #fff;
+}
+
+.course-info .title {
+	padding: 0.8rem 1rem;
+}
+
+.course-info .title span {
+	display: block;
+	padding-left: 0.3rem;
+	border-left: 6px solid #ff0055;
+}
+
+.mui-navigate-right .name {
+	font-size: 0.8rem;
+	font-weight: bold;
+	color: #000;
+}
+
+.mui-navigate-right .range {
+	font-size: 0.65rem;
+}
+
+
+/*机构介绍*/
+
+.base-intro .title,
+.sum-intro .title {
+	padding: 0.8rem 1rem;
+}
+
+.base-intro .title span,
+.sum-intro .title span {
+	display: block;
+	padding-left: 0.3rem;
+	border-left: 6px solid #ff0055;
+	font-weight: bold;
+}
+
+.base-intro ul,
+.history-info,
+.more-info {
+	padding: 0 1rem;
+	font-size: 0.7rem;
+	font-weight: bold;
+	color: #000;
+}
+
+.base-intro ul {
+	line-height: 1.5rem;
+}
+
+.btn-show {
+	display: block;
+	margin-top: 0.3rem;
+	text-align: center;
+	font: normal 0.8rem/1rem "微软雅黑";
+	color: #ff0055;
+}
+
+.btn-more {
+	border: 1px solid #ff0055;
+	background: #ff0055;
+}
+
+.btn-more:active {
+	border: 1px solid #ff0055 !important;
+	background: #ff0055 !important;
+}
+.swiper-pagination-bullet-active{
+	background:#ff0055;
+}
+/*班级详情页面*/
+.pic-panel{
+	height:9rem;
+}
+.pic-panel img{
+	width:100%;
+	height:9rem;
+}
+.intro{
+	margin:0.5rem 0;
+	border-top:1px solid #e7e8ea;
+	border-bottom:1px solid #e7e8ea;
+	background: #fff;
+}
+.first{
+	margin-top:0;
+	border-top:none
+}
+.intro .title{
+	padding: 0.8rem 1rem;
+	/*padding-bottom: 1.5rem;*/
+}
+.intro .title span{
+	display: block;
+	padding-left: 0.3rem;
+	border-left: 6px solid #ff0055;
+	font-weight: bold;
+}
+.intro ul,.intro p{
+	padding:0 1rem 1rem 1rem;
+}
+.intro ul{
+	font:normal 0.8rem/1.3rem "微软雅黑";
+	color:#000;
+}
+.intro p{
+	font:normal 0.8rem/1.1rem "微软雅黑";
+	color:#000;
+}
+.time-table{
+	/*padding:0 1rem 1rem 1rem;*/
+}
+.time-table label{
+	margin-left: 1rem;
+	float:left;
+	width:14%;
+	font-size: 0.85rem;
+}
+.time-table ul{
+	float:left;
+	width:75%;
+	padding-left:0;
+	font-size: 0.8rem;
+}
+
